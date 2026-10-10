@@ -95,12 +95,6 @@ export default function App() {
 
           <div className="flex items-center gap-2">
             <button
-              onClick={() => setCustomizerOpen(true)}
-              className="hidden rounded-full border border-teal-200 px-4 py-2 text-sm font-semibold text-teal-700 transition hover:bg-teal-50 md:block"
-            >
-              Customize
-            </button>
-            <button
               onClick={() => setDrawerOpen(true)}
               className="relative rounded-full bg-teal-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-teal-700"
             >
